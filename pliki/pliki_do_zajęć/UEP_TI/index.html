@@ -1,26 +1,26 @@
 <html>
     <head>
-        Strona główna
+        <title>Strona główna</title>
     </head>
     <body>
         <header>
             <header>
-                <h1></h1> Strona główna
+                <h1>Strona główna</h1> 
             </header>
         </header>
         <section class="content">
-            <div id="side-links" style="width: 20%; float: left; border: 1px green solid;">
-                <ul>
-                    <li></li><a scr="https://ue.poznan.pl/en/university/"></a>Strona główna UEP
-                    <a scr="https://www.kti.ue.poznan.pl/"></a>Strona główna KTI
-                    <li></li>
-                </ul>
+            <div id="side-links" style="width: 20%; float: left; border: 2px green solid;">
+                <ul style="list-style: none;">
+                    <li><a href="https://ue.poznan.pl/en/university/">Strona główna UEP</a></li>
+                    
+                    <li><a href="https://www.kti.ue.poznan.pl/">Strona główna KTI</a></li>
+                </ul style="list-style: none;">
             </div>
-            <div id="main-content" style="width: 75%; float: left; border: 1px green solid;">
+            <div id="main-content" style="width: 75%; float: left; border: 2px green solid;">
                 <div id="list">
                     <h2>Sernik tradycyjny</h2>
                     <h3>Składniki</h3>
-                    <ol>
+                    <ul>
                         <li>1 kg zmielonego twarogu</li>
                         <li>250 g miękkiego masła</li>
                         <li>1 i 1/3 szklanki cukru pudru</li>
@@ -28,7 +28,7 @@
                         <li>1 opakowanie cukru wanilinowego</li>
                         <li>150 ml śmietanki 36%</li>
                         <li>4 łyżki mąki ziemniaczanej</li>    
-                    </ol>
+                    </ul>
                     <br/>
                     <h3>Przygotowanie</h3>
                     <ul>
@@ -38,26 +38,23 @@
                         <li>asę serową wyłożyć do tortownicy i wstawić do piekarnika nagrzanego do 170 stopni C. Piec przez 60 minut. Sernik studzić stopniowo wyjmując z piekarnika (najpierw po trochu otwierając drzwiczki i lekko wysuwając sernik, w końcu wyjąć z piekarnika). Zrumieniony wierzch sernika posypać cukrem pudrem lub polać polewą czekoladową.</li>
                     </ul>
                     <br/>
-                    <img scr="obrazek.jpg" height="300px" width="300px" style="display: block; margin-left: auto; margin-right: auto;"/>
+                    <img src="sernik_tradycyjny_01.jpg" height="300px" width="300px" style="display: block; margin-left: auto; margin-right: auto;"/>
                 </div>
                 <div id="table">
-                    <h2>Moje ulubione psy</h2>
+                    <h2>Moje ulubione psy</h2> 
                     <table border="1px" style="text-align: center;">
                         <tr>
                             <th>Rasa</th>
                             <th>Obrazek</th>
                         </tr>
-                        <td>
-                            <tr>Mops</tr>
-                            <tr><img src="mops.jpeg" height="200px"></tr>
-                        </td>
+                        <td>Mops</td>
+                        <td><img src="mops.jpeg" height="200px"></td>
                         <tr>
                             <td>Owczarek Niemiecki</td>
                             <td><img src="owczarek.jpeg" height="200px"></td>
-                            <td><img src="szpic.jpeg" height="200px"></td>
-                        </tr>
                         <tr>
                             <td>Szpic miniaturowy</td>
+                            <td><img src="szpic.jpeg" height="200px"></td>
                         </tr>
                     </table>
                 </div>
@@ -66,19 +63,31 @@
                     <img src="shrek.webp" height="300px"/>
                     <p>Shrek powstał w 2001 roku. </p>
                     <h3>Fabuła</h3>
+                    <p>
+                        Ogr o imieniu Shrek wiedzie samotne życie do czasu, gdy w wyniku represji okrutnego Lorda Farquaada na jego bagno zostają zesłane różne bajkowe postacie,
+ m.in. Pinokio, Wilk i siedmiu krasnoludków. Chcąc odzyskać spokój na terenie swojej posiadłości, Shrek decyduje się na wyprawę do siedziby Farquaada,
+ miasta Duloc, by odebrać prawa do swoich ziem. W wyprawie towarzyszy mu niezdarny i gadatliwy Osioł. Shrek i Farquaad zawierają układ: w zamian za
+ otrzymanie dokumentu ogr zobowiązuje się uwolnić ze smoczej wieży piękną królewnę Fionę, którą Lord wybrał za pośrednictwem magicznego lustra na swoją
+ przyszłą małżonkę. Po dotarciu do smoczej wieży Shrek odbija Fionę i wychodzi cało z potyczki ze smoczycą, która chwilę później zakochała się w Ośle.
+ <p>Podczas drogi powrotnej nawiązuje się uczucie pomiędzy Shrekiem a Fioną. Żadne z nich nie zdobywa się jednak na miłosne wyznanie. Królewna w
+ międzyczasie ujawnia swoją tajemnicę – po zachodzie słońca w konsekwencji rzuconego na nią uroku przemienia się w ogrzycę. Fiona, mimo uczucia, jakim
+ darzy Shreka, decyduje się na ślub z Lordem Farquaadem, bo wierzy, że pocałunek z Lordem przerwie urok rzucony na nią. Shrek na skutek mobilizacji ze
+ strony Osła rusza do Duloc, by wyznać uczucie Fionie. W ostatniej chwili przerywa ceremonię zaślubin, po czym wyznaje miłość Fionie, która po pocałunku
+ przemienia się na stałe w ogra. Farquaad zostaje zjedzony przez smoczycę, a Shrek i Fiona biorą ślub. </p> 
+                    </p>
                 </div>
                 <div id="forms">
                     <h2>Kontakt</h2>
                     <form>
-                        Podaj swój adres e-mail:
+                        Podaj swój adres e-mail: <input type="email" name="guest_email" required="required">
                         </input type="password" name="user_mail" required/>
                         <br/>
                         Oceń stronę w skali 1 do 5:
-                        <input type="checkbox" name="rank" value="1" required/> 1
-                        <input type="checkbox" name="rank" value="2" required/> 2
-                        <input type="checkbox" name="rank" value="3" required/> 3
-                        <input type="checkbox" name="rank" value="4" required/> 4
-                        <input type="checkbox" name="rank" value="5" required/> 5
+                        <input type="radio" name="rank" value="1" required/> 1
+                        <input type="radio" name="rank" value="2" required/> 2
+                        <input type="radio" name="rank" value="3" required/> 3
+                        <input type="radio" name="rank" value="4" required/> 4
+                        <input type="radio" name="rank" value="5" required/> 5
                         <br/>
                         <input type="submit" value="Wyślij"/>
                     </form>
